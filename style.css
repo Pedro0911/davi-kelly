@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    padding: 0px;
+    margin: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+main{
+    background-color: #0D1A3C;
+    color: aliceblue;
+    padding: 8px;
+    margin: auto;
+    min-width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main h1{
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+}
+
+
+section{
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 26px;
+    min-width: 320px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.chamada{
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    color: aliceblue;
+}
+
+
+.imgChamada{
+    width: 300px;
+}
+
+.principal_img{
+    width: 300px;
+}
+
+
+#autofrase{
+    background-color: #0D1A3C;
+    border-radius:10px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#autofrase p{
+    color:aliceblue
+}
+
+.filho-container{
+    background-color: #0D1A3C;
+    color: aliceblue;
+    border-radius: 10px;
+    max-width: 400px;
+    padding:1.5rem;
+    text-align: justify;
+
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+#filho-hei{
+    height: 550px;
+}
+
+/*
+.filho{
+    height: 400px;
+    width: 400px;
+
+}
+*/
+
+.grid_fotos{
+    width: 380px;
+    height: 352px;
+}
+
+.grid_config{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+
+#grid{
+    width: 171px;
+    height: 184px;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+#chamada2{
+    color: #0D1A3C;
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    body {
+      font-size: 14px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    
+}
+
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+
+    to{
+        opacity: 1;
+        clip-path: 0 0 0 0;
+    }
+}
+
+.block{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+    width: 400px;
+    height: 400px;
+}
+
+.frase_amor {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .frase_amor.fade-in {
+    opacity: 1;
+  }
