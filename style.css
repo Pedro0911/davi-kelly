@@ -152,7 +152,12 @@ p{
         width: 346px;
     }
 
-    .principal_img{
+    #imgb-segubda-sessao{
+        height: 339px;
+        width: 346px
+    }
+
+    #img_terceira_sessao{
         height: 339px;
         width: 346px
     }
