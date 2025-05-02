@@ -88,18 +88,15 @@ p{
     background-color: #0D1A3C;
     color: aliceblue;
     border-radius: 10px;
-    max-width: 400px;
     padding:1.5rem;
     text-align: justify;
-
-
     margin-bottom: 50px;
     margin-top: 50px;
 
 }
 
 #filho-hei{
-    height: 550px;
+    height: 500px;
 }
 
 /*
@@ -165,6 +162,18 @@ p{
 
     #autofrase{
         width: 100%;
+    }
+
+    .filho-container{
+        background-color: #0D1A3C;
+        color: aliceblue;
+        border-radius: 10px;
+        text-align: justify;
+        width: 370px;
+        
+        margin-bottom: 50px;
+        margin-top: 50px;
+    
     }
 
     
