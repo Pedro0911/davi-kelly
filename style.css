@@ -144,6 +144,12 @@ p{
       font-size: 14px;
       padding: 0px;
       margin: 0px;
+      width: 100%;
+    }
+
+    #header-img{
+        height: 339px;
+        width: 346px;
     }
 
     
